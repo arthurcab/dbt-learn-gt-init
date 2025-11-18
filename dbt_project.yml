@@ -34,6 +34,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   jaffle_shop:
+<<<<<<< HEAD
     +materialized: view
 
     
+=======
+    staging: 
+      +materialized: view
+    marts:
+      +materialized: table
+>>>>>>> c648048 (Update dbt_project.yml to define materialization strategies for staging and marts models)
